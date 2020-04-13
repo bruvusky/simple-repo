@@ -4,11 +4,12 @@ function yob() {
     var ageindays = ((2020 - birthyear) * 365);
     var h1 = document.createElement('h1');
     var textanswer = document.createTextNode('you are ' + ageindays + 'days old.');
-    h1.setAttribute('id', 'age');
+    h1.setAttribute("id", "age");
     h1.appendChild(textanswer);
     document.getElementById('flex-box-result').appendChild(h1);
 }
 
-function reset() {
-    document.getElementById('age').remove;
+function yob1() {
+
+    document.getElementById("age").remove;
 }
