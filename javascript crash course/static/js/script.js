@@ -10,6 +10,7 @@ function yob() {
 }
 
 function myFunction() {
-    document.getElementById('ageindays').remove;
+    document.getElementById("ageindays").remove;
+
 }
 // <button class='btn btn-danger' onclick="reset()">reset here</button>
