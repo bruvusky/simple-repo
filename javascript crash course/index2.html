@@ -13,14 +13,36 @@
         <h2>Challenge 1: Your Age In Days</h2>
         <div class=' flex-box-container-1'>
             <div>
-                <button class='btn btn-primary' onclick="yob( )">Calculate</button>
+                <button class='btn btn-primary' onclick="ageIndays() ">Calculate</button>
             </div>
             <div>
-                <button class='btn btn-danger' onclick="yob1( )">reset</button>
+                <button class='btn btn-danger' onclick="reset()">reset</button>
             </div>
         </div>
         <div class=" flex-box-container-1">
             <div id=flex-box-result></div>
+        </div>
+    </div>
+    <div class="container-2">
+        <h2>Challenge 2: Cat Generator</h2>
+        <button class="btn btn-success" id="cat-generator" onclick="generatecat()"> Generate Cat</button>
+        <div class="flex-box-container-2" id="flex-cat-gen">
+
+        </div>
+    </div>
+    <div class="container-3">
+        <h2>Challenge3: Rock Paper and Scissor</h2>
+        <div class="flexboxrps" id="flex-box-rps div">
+            <img id='rock'
+                src="https://tse1.mm.bing.net/th?id=OIP.3H3kQF2BUMpjHisdcLRz7gHaFZ&pid=Api&rs=1&c=1&qlt=95&w=168&h=122"
+                height="150" width="150" alt="" onclick="rpsGame(this)">
+            <img id='paper'
+                src=" https://media.istockphoto.com/photos/notebook-paper-picture-id692814410?k=6&m=692814410&s=612x612&w=0&h=tL3Zx_AfPcxp_YZ4Xk3vxSpsUFWLm4zzvAiBCRsvvJo="
+                height="150" width="150" alt="" onclick="rpsGame(this)">
+            <img id='scissor'
+                src=" https://tse4.mm.bing.net/th?id=OIP.AIahXHaFOMzWEHmkQaH-zAHaIA&pid=Api&P=0&w=300&h=300"
+                height="150" width="150" alt="" onclick="rpsGame(this)">
+
         </div>
     </div>
     <script src="static/js/script.js"></script>
